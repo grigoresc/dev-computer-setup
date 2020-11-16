@@ -46,9 +46,15 @@ choco install -y conemu
 
 choco install -y lastpass
 choco install -y logexpert
-#choco install -y slack
+choco install -y slack
 
 choco install -y wsl2 #needed usually by docker, need restart I think
 choco install -y docker-desktop
+
+choco install -y keepass
+
+choco install -y foxitreader
+
+choco install -y basecamp3
 
 choco list --localonly
