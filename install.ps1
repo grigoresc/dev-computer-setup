@@ -12,16 +12,14 @@ choco list --localonly
 #Browsers
 cinst googlechrome -y
 cinst firefox -y
+choco install -y brave
 
 choco install -y 7zip.install
-#choco install -y chocolatey
-#choco install -y filezilla
-#choco install -y gimp
+
 choco install -y git.install
 #choco install -y nodejs.install
 choco install -y VisualStudioCode
 #choco install -y sql-server-management-studio
-#choco install -y slack
 #choco install -y paint.net --allow-empty-checksums
 #choco install -y clipx --allow-empty-checksums
 choco install -y postman
@@ -56,5 +54,6 @@ choco install -y keepass
 choco install -y foxitreader
 
 choco install -y basecamp3
+
 
 choco list --localonly
