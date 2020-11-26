@@ -1,6 +1,5 @@
-#in stall cascadiacodepl  font manually
+#install cascadiacodepl  font manually
 #install  cascadiamonopl font manually
-
 
 # Set-PSRepository psgallery
 Install-Module posh-git -Scope CurrentUser
@@ -13,6 +12,7 @@ Install-Module oh-my-posh -Scope CurrentUser
 
 
 #code $PROFILE 
-#Import-Module posh-git
-#Import-Module oh-my-posh
-#Set-Theme Paradox
+#powerlines
+Import-Module posh-git
+Import-Module oh-my-posh
+set-Theme zash

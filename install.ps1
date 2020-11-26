@@ -20,7 +20,7 @@ choco install -y git.install
 #choco install -y nodejs.install
 choco install -y VisualStudioCode
 #choco install -y sql-server-management-studio
-#choco install -y paint.net --allow-empty-checksums
+choco install -y paint.net
 #choco install -y clipx --allow-empty-checksums
 choco install -y postman
 #choco install -y vlc
