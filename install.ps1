@@ -1,11 +1,9 @@
-#Set-ExecutionPolicy Unrestricted
-#
-#if (Get-Command choco -errorAction SilentlyContinue)
-#{
-#    Write-Host "Chocolate is already installed"
-#}else{
-#    iwr https://chocolatey.org/install.ps1 -UseBasicParsing | iex
-#}
+if (Get-Command choco -errorAction SilentlyContinue)
+{
+    Write-Host "Chocolate is already installed"
+}else{
+    iwr https://chocolatey.org/install.ps1 -UseBasicParsing | iex
+}
 
 choco list --localonly
 
@@ -54,6 +52,5 @@ choco install -y keepass
 choco install -y foxitreader
 
 choco install -y basecamp3
-
 
 choco list --localonly
