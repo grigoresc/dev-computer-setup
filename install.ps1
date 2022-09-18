@@ -53,4 +53,12 @@ choco install -y foxitreader
 
 choco install -y basecamp3
 
+choco install clink
+# choco install nodejs --version 10.24.0
+choco install nodejs --version 14.17.1
+
+choco install powertoys
+
+. .\k.ps1
+
 choco list --localonly
